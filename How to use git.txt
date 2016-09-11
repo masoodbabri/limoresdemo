@@ -42,3 +42,22 @@ git commit -m "initial commit"
 and then you can check by 
 
 git log
+
+@@ Now I have created two more files in the same folder and going to check the status 
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   How to use git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        gitPractice.txt
+        gitPractice2.txt
+
+so it show the first file is changed and it shows at the end that I have added two more files in that folder.
+
