@@ -15,3 +15,30 @@ Now we can create a new project by going to that Selenium folder and create a gi
 3- Initialize the project by the following command
 
 git init gitProject
+
+which is going to create git repository in that folder
+
+4- Then we check the status of the git project
+
+git status
+
+its going to show the the git status on branch master
+
+5- Now we can use git add . command to add files
+
+git add .   (it will add all the files in the git hub)
+git add . How to use git.txt (will add files individually)
+
+Now if we run git status command again it will show the file in green. 
+
+if you would like to delete any file from these files 
+
+git rm --cached test.txt  (will remove the file from the directory)
+
+6- Now we need to commit the git 
+
+git commit -m "initial commit"
+
+and then you can check by 
+
+git log
