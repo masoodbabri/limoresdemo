@@ -1,0 +1,17 @@
+Git Commands
+*****************************
+1- configuration global name
+
+git config --global user.name "Masood"
+
+2- configuration global email.
+
+git config -- global user.email "mbabri331@gmail.com"
+
+note: so before commiting the above two statements I used my git bash window to go to C:/Selenium "folder" where I have added these two commands.
+
+Now we can create a new project by going to that Selenium folder and create a git project.
+
+3- Initialize the project by the following command
+
+git init gitProject
