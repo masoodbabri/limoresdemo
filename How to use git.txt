@@ -60,4 +60,42 @@ Untracked files:
         gitPractice2.txt
 
 so it show the first file is changed and it shows at the end that I have added two more files in that folder.
+\Owner@Owner-PC MINGW64 /c/Selenium/gitProject (master)
+$ git commit -m "new files and changes"
+[master 6b99774] new files and changes
+ 3 files changed, 23 insertions(+), 1 deletion(-)
+ create mode 100644 gitPractice.txt
+ create mode 100644 gitPractice2.txt
+
+Owner@Owner-PC MINGW64 /c/Selenium/gitProject (master)
+$ git log
+commit 6b997749c3a5b11bee237eb0a4fadfac2a1635c1
+Author: Masood <mbabri331@gmail.com>
+Date:   Sun Sep 11 16:43:46 2016 -0400
+
+    new files and changes
+
+commit b01cc583ae645525a33a450b2cf511eecfbd6510
+Author: Masood <mbabri331@gmail.com>
+Date:   Sun Sep 11 16:33:45 2016 -0400
+
+    another commit
+
+commit 68f65b655ca24d0733e249f262b9584ee2e3cd86
+Author: Masood <mbabri331@gmail.com>
+Date:   Sun Sep 11 16:28:16 2016 -0400
+
+    initial commit
+
+some shortcut for git
+
+$ git log --oneline
+6b99774 new files and changes
+b01cc58 another commit
+68f65b6 initial commit
+
+// now if we have made any changes to these files 
+
+
+
 
